@@ -24,7 +24,9 @@ class _JogoState extends State<Jogo> {
     switch(escolhaAPP){
       case 'pedra':
       setState(() {
+        onTap:()=> {"Clicou em pedra",};
         this.imagemApp =  AssetImage('imagens/pedra.png');
+      
       });
       break;
       case 'papel':
