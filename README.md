@@ -1,16 +1,78 @@
-# jokenpo
+✊🖐✌ JOKENPÔ - Flutter Edition
+Um simples (e viciante!) jogo de Pedra, Papel e Tesoura feito com 💙 Flutter.
 
-A new Flutter project.
+🎮 Sobre o Jogo
+Este projeto é uma recriação moderna do clássico jogo Jokenpô, com uma interface amigável e responsiva. O jogador escolhe entre pedra, papel ou tesoura, e o app faz sua jogada aleatória. Em seguida, o resultado é exibido com uma mensagem e a imagem correspondente à escolha do app.
 
-## Getting Started
+🚀 Funcionalidades
+Escolha interativa com imagens (pedra, papel, tesoura)
 
-This project is a starting point for a Flutter application.
+Geração aleatória da jogada do app
 
-A few resources to get you started if this is your first Flutter project:
+Mensagem de resultado: vitória, derrota ou empate
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Interface simples, clara e fácil de usar
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+🧠 Lógica do jogo
+O app segue as regras clássicas:
+
+Pedra vence Tesoura
+
+Tesoura vence Papel
+
+Papel vence Pedra
+
+Mesma escolha = Empate
+
+🛠️ Tecnologias usadas
+Flutter 💙
+
+Dart
+
+Stateful Widgets
+
+AssetImage para exibir imagens dinâmicas
+
+📁 Estrutura do projeto
+css
+Copiar
+Editar
+📁 imagens/
+  ├── pedra.png
+  ├── papel.png
+  ├── tesoura.png
+  └── padrao.png
+
+📄 lib/
+  └── main.dart (ou Jogo.dart)
+📸 Preview
+(adicione aqui prints do app rodando, se quiser)
+
+📦 Como rodar o projeto
+Clone este repositório:
+
+bash
+Copiar
+Editar
+git clone https://github.com/seu-usuario/jokenpo_flutter.git
+cd jokenpo_flutter
+Instale as dependências:
+
+bash
+Copiar
+Editar
+flutter pub get
+Execute o app:
+
+bash
+Copiar
+Editar
+flutter run
+Certifique-se de ter o Flutter instalado corretamente e um emulador ou dispositivo conectado.
+
+✨ Contribuições
+Sinta-se à vontade para forkar o projeto, melhorar a lógica, adicionar animações ou até um placar! PRs são muito bem-vindos.
+
+📄 Licença
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
