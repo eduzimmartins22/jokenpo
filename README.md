@@ -27,49 +27,6 @@ Mesma escolha = Empate
 🛠️ Tecnologias usadas
 Flutter 💙
 
-Dart
-
-Stateful Widgets
-
-AssetImage para exibir imagens dinâmicas
-
-📁 Estrutura do projeto
-css
-Copiar
-Editar
-📁 imagens/
-  ├── pedra.png
-  ├── papel.png
-  ├── tesoura.png
-  └── padrao.png
-
-📄 lib/
-  └── main.dart (ou Jogo.dart)
-📸 Preview
-(adicione aqui prints do app rodando, se quiser)
-
-📦 Como rodar o projeto
-Clone este repositório:
-
-bash
-Copiar
-Editar
-git clone https://github.com/seu-usuario/jokenpo_flutter.git
-cd jokenpo_flutter
-Instale as dependências:
-
-bash
-Copiar
-Editar
-flutter pub get
-Execute o app:
-
-bash
-Copiar
-Editar
-flutter run
-Certifique-se de ter o Flutter instalado corretamente e um emulador ou dispositivo conectado.
-
 ✨ Contribuições
 Sinta-se à vontade para forkar o projeto, melhorar a lógica, adicionar animações ou até um placar! PRs são muito bem-vindos.
 
